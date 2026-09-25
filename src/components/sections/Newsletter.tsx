@@ -33,7 +33,7 @@ export default function Newsletter() {
             <p className="text-white/80 text-sm sm:text-base mb-8 leading-relaxed">
               Become a distributor or get in touch for bulk orders.
               <br className="hidden sm:inline" />
-              Contact us at <a href="mailto:sales@bhaskarmasale.com" className="text-accent hover:text-accent-light underline font-medium transition-colors duration-300">sales@bhaskarmasale.com</a> or call <a href="tel:+919579596676" className="text-accent hover:text-accent-light underline font-medium transition-colors duration-300">+91 9579596676</a>.
+              Contact us at <a href="mailto:sales@bhaskarmasale.com" className="text-accent hover:text-accent-light underline font-medium transition-colors duration-300">sales@bhaskarmasale.com</a> or call <a href="tel:02572270382" className="text-accent hover:text-accent-light underline font-medium transition-colors duration-300">0257-2270382</a>.
             </p>
 
             {/* Email form */}

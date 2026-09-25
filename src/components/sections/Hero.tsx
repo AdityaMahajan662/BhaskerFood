@@ -42,7 +42,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-accent font-semibold text-sm tracking-[0.2em] uppercase mb-4"
             >
-              Khandeshi Taste Makers Since 1972
+              Khandeshi Taste Makers Since 2000
             </motion.p>
 
             <motion.h1
@@ -65,7 +65,7 @@ export default function Hero() {
               className="text-white/80 text-lg lg:text-xl max-w-lg mb-8 leading-relaxed"
             >
               We provide awesome Spices & Food Products for cooking delicious
-              food. Trusted by families across India since 1972.
+              food. Trusted by families across India since 2000.
             </motion.p>
 
             <motion.div
@@ -122,8 +122,8 @@ export default function Hero() {
             >
               <span className="text-2xl xl:text-3xl shrink-0">🇮🇳</span>
               <div>
-                <h4 className="text-white font-heading font-bold text-xs xl:text-sm">Since 1972</h4>
-                <p className="text-white/70 text-[10px] xl:text-[11px] mt-0.5 font-medium">Trust of 50+ Years</p>
+                <h4 className="text-white font-heading font-bold text-xs xl:text-sm">Since 2000</h4>
+                <p className="text-white/70 text-[10px] xl:text-[11px] mt-0.5 font-medium">Trust of 25+ Years</p>
               </div>
             </motion.div>
           </div>

@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center group py-2">
-            <div className="relative w-40 h-13 sm:w-48 sm:h-15 lg:w-56 lg:h-18 bg-white/95 backdrop-blur-sm rounded-2xl border border-white/20 shadow-sm transition-all duration-300 group-hover:shadow-md">
+            <div className="relative w-30 h-13 sm:w-35 sm:h-14 lg:w-42 lg:h-18 bg-white/95 backdrop-blur-sm rounded-2xl border border-white/20 shadow-sm transition-all duration-300 group-hover:shadow-md">
               <Image
                 src="/logo/logo-hindi.svg"
                 alt="Bhaskar Masale Logo"

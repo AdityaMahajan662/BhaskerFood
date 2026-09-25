@@ -91,10 +91,10 @@ export default function Sourcing() {
             <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-heading font-bold text-charcoal mb-6 leading-tight">
               Khandeshi Taste Makers
               <br />
-              <span className="text-primary">Since 1972</span>
+              <span className="text-primary">Since 2000</span>
             </h2>
             <p className="text-warm-gray text-base lg:text-lg leading-relaxed mb-8">
-              Founded in 1972 by Mr. Namdeo Mali and Mrs. Dropadabai Mali,
+              Founded in 2000 by Mr. Namdeo Mali and Mrs. Dropadabai Mali,
               Bhaskar Masale started as a local red chilli vendor and grew into
               a fully automated, ISO 9001 certified company in Jalgaon,
               Maharashtra. With over 30 products, the name &apos;Bhaskar

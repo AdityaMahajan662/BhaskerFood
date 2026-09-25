@@ -69,14 +69,14 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed max-w-sm mb-2">
-              Bringing the authentic Khandeshi taste to kitchens since 1972.
+              Bringing the authentic Khandeshi taste to kitchens since 2000.
               Pure spices, honest ingredients, and real flavour — that&apos;s
               the Bhaskar promise.
             </p>
             <p className="text-white/50 text-xs leading-relaxed max-w-sm mb-6">
               D-46/1, MIDC, Jalgaon, Maharashtra (India) - 425001
               <br />
-              📞 +91 9579596676 &nbsp;|&nbsp; ✉ sales@bhaskarmasale.com
+              📞 0257-2270382 &nbsp;|&nbsp; ✉ sales@bhaskarmasale.com
               <br />
               Mon-Fri, 9 am – 6 pm
             </p>

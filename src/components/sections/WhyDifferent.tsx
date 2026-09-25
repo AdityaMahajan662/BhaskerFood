@@ -28,8 +28,8 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "Since 1972",
-    desc: "Over five decades of perfecting the art of authentic Khandeshi spices.",
+    title: "Since 2000",
+    desc: "Over 25 years of perfecting the art of authentic Khandeshi spices.",
   },
   {
     icon: (

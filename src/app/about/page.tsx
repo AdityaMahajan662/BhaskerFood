@@ -25,15 +25,15 @@ const scaleIn = {
 
 /* ─── Data ───────────────────────────────────────────────────────────────── */
 const stats = [
-  { value: "1972", label: "Year of Establishment" },
-  { value: "50+", label: "Years of Heritage" },
+  { value: "2000", label: "Year of Establishment" },
+  { value: "25+", label: "Years of Heritage" },
   { value: "30+", label: "Premium Products" },
   { value: "ISO", label: "9001 Certified" },
 ];
 
 const timeline = [
   {
-    year: "1972",
+    year: "2000",
     title: "The Beginning",
     description:
       "Mr. Namdeo Mali and Mrs. Dropadabai Mali started a modest red chilli vendor business in Jalgaon, Maharashtra — planting the seeds of Bhaskar Masale.",
@@ -99,7 +99,7 @@ const values = [
     icon: "🤝",
     title: "Trusted Relationships",
     description:
-      "50+ years of trust with our customers, distributors, and farming communities across the country.",
+      "25+ years of trust with our customers, distributors, and farming communities across the country.",
   },
   {
     icon: "♻️",
@@ -172,7 +172,7 @@ export default function AboutPage() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="inline-block text-accent text-xs font-semibold tracking-[0.3em] uppercase mb-4 border border-accent/40 rounded-full px-4 py-1.5 backdrop-blur-sm bg-white/5"
             >
-              Crafting Flavour Since 1972
+              Crafting Flavour Since 2000
             </motion.span>
 
             <motion.h1
@@ -258,7 +258,7 @@ export default function AboutPage() {
             <motion.div variants={fadeUp}>
               <SectionLabel>Our Story</SectionLabel>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-5">
-                Five Decades of Spice Mastery
+                Over 25 Years of Spice Mastery
               </h2>
               <p className="text-warm-gray text-lg leading-relaxed">
                 What started as a family passion for authentic Khandeshi flavours has grown into one of Maharashtra's most trusted spice brands. Here's how the journey unfolded.
@@ -491,7 +491,7 @@ export default function AboutPage() {
                     priority
                   />
                   <div className="absolute bottom-6 left-6 bg-primary/95 backdrop-blur-sm text-accent font-heading font-bold text-xl px-4 py-2 rounded-2xl border border-white/10 shadow-lg">
-                    Est. 1972
+                    Est. 2000
                   </div>
                 </div>
               </motion.div>
@@ -547,7 +547,7 @@ export default function AboutPage() {
             <div className="relative z-10">
               <SectionLabel>Experience the Difference</SectionLabel>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-5 mt-2">
-                Taste 50 Years of Tradition
+                Taste 25 Years of Tradition
               </h2>
               <p className="text-white/65 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
                 Explore our full range of pure, authentic Khandeshi spice blends — crafted with love, sealed with science.
@@ -574,7 +574,7 @@ export default function AboutPage() {
               {/* Contact info strip */}
               <div className="mt-12 pt-8 border-t border-white/10 flex flex-wrap gap-6 justify-center text-white/50 text-sm">
                 <span>📍 D-46/1, MIDC, Jalgaon — 425001</span>
-                <span>📞 +91 9579596676</span>
+                <span>📞 0257-2270382</span>
                 <span>✉ sales@bhaskarmasale.com</span>
               </div>
             </div>

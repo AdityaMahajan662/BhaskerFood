@@ -31,7 +31,7 @@ export default function MostLoved() {
           </h2>
           <p className="text-warm-gray max-w-xl mx-auto leading-relaxed">
             The spices every Khandeshi home swears by — from Bhaskar Masale,
-            with uncompromising quality and flavour since 2000.
+            with uncompromising quality and flavour.
           </p>
         </motion.div>
 

@@ -69,7 +69,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-white/70 text-sm leading-relaxed max-w-sm mb-2">
-              Bringing the authentic Khandeshi taste to kitchens since 2000.
+              Bringing the authentic Khandeshi taste to kitchens.
               Pure spices, honest ingredients, and real flavour — that&apos;s
               the Bhaskar promise.
             </p>

@@ -90,8 +90,6 @@ export default function Sourcing() {
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-heading font-bold text-charcoal mb-6 leading-tight">
               Khandeshi Taste Makers
-              <br />
-              <span className="text-primary">Since 2000</span>
             </h2>
             <p className="text-warm-gray text-base lg:text-lg leading-relaxed mb-8">
               Founded in 2000 by Mr. Namdeo Mali and Mrs. Dropadabai Mali,

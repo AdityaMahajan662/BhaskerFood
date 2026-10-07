@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bhaskar Masale — Khandeshi Taste Makers Since 2000",
+  title: "Bhaskar Masale — Khandeshi Taste Makers",
   description:
-    "Pure spices and food products by Bhaskar Masale, Jalgaon. Khandeshi taste makers since 2000. ISO 9001 certified. Over 30 premium spice products.",
+    "Pure spices and food products by Bhaskar Masale, Jalgaon. Khandeshi taste makers. ISO 9001 certified. Over 30 premium spice products.",
   keywords: [
     "Bhaskar Masale",
     "Bhaskar Foods",

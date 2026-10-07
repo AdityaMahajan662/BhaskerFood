@@ -33,7 +33,7 @@ const stats = [
 
 const timeline = [
   {
-    year: "2000",
+    year: "1972",
     title: "The Beginning",
     description:
       "Mr. Namdeo Mali and Mrs. Dropadabai Mali started a modest red chilli vendor business in Jalgaon, Maharashtra — planting the seeds of Bhaskar Masale.",

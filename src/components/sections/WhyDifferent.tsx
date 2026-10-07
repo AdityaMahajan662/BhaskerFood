@@ -11,7 +11,7 @@ const features = [
       </svg>
     ),
     title: "No Synthetic Colours",
-    desc: "No additives, fillers, or artificial colours. Just pure, natural spices.",
+    desc: "No additives, fillers, or artificial colours. Just 100% pure, natural spices direct from trusted farms.",
   },
   {
     icon: (
@@ -20,16 +20,7 @@ const features = [
       </svg>
     ),
     title: "Total Hygiene",
-    desc: "Ground and packed in fully automated, hygienic processing plant.",
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-    title: "Since 2000",
-    desc: "Over 25 years of perfecting the art of authentic Khandeshi spices.",
+    desc: "Ground, blended, and packed in our state-of-the-art, fully automated hygienic processing plant.",
   },
   {
     icon: (
@@ -38,7 +29,7 @@ const features = [
       </svg>
     ),
     title: "ISO 9001 Certified",
-    desc: "Certified production facility ensuring consistent quality standards.",
+    desc: "Certified production facility ensuring rigorous quality control and consistent taste in every batch.",
   },
 ];
 
@@ -46,49 +37,55 @@ export default function WhyDifferent() {
   return (
     <section
       id="why-different"
-      className="py-20 lg:py-28 bg-cream section-padding"
+      className="py-20 lg:py-28 bg-gradient-to-b from-[#FAF6EE] via-[#F7F2E6] to-[#F5EFE0] section-padding relative overflow-hidden"
     >
-      <div className="section-container">
+      {/* Decorative background glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+
+      <div className="section-container relative z-10">
         {/* Header */}
         <motion.div
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
-          className="text-center mb-14 lg:mb-20"
+          className="text-center mb-14 lg:mb-20 max-w-2xl mx-auto"
         >
           <span className="text-accent text-sm font-semibold tracking-[0.2em] uppercase block mb-3">
             The Bhaskar Difference
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-charcoal mb-4">
             Why We&apos;re Different
           </h2>
+          <div className="w-16 h-1 bg-accent/40 rounded-full mx-auto mt-4" />
         </motion.div>
 
-        {/* Feature Grid */}
+        {/* Feature Grid - Balanced 3-column layout */}
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto"
         >
           {features.map((feature) => (
             <motion.div
               key={feature.title}
               variants={staggerItem}
               whileHover={{ y: -8 }}
-              className="group bg-[#FCF9F3] border border-black/5 rounded-2xl p-6 lg:p-8 text-center shadow-sm hover:shadow-2xl hover:shadow-primary/5 hover:border-primary/10 hover:bg-[#FAF5EA] transition-all duration-500 cursor-default"
+              className="group bg-white/90 backdrop-blur-sm border border-black/5 rounded-3xl p-8 lg:p-10 text-center shadow-lg shadow-black/5 hover:shadow-2xl hover:shadow-primary/10 hover:border-accent/40 transition-all duration-500 flex flex-col items-center justify-between cursor-default"
             >
-              <div className="w-16 h-16 rounded-2xl bg-primary/5 text-primary mx-auto flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-primary/15 transition-all duration-500">
-                {feature.icon}
+              <div>
+                <div className="w-18 h-18 w-[72px] h-[72px] rounded-2xl bg-cream-dark/80 text-primary mx-auto flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-white group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-primary/20 transition-all duration-500 border border-black/5">
+                  {feature.icon}
+                </div>
+                <h3 className="font-heading font-bold text-charcoal text-xl lg:text-2xl mb-3 group-hover:text-primary transition-colors">
+                  {feature.title}
+                </h3>
+                <p className="text-warm-gray text-sm sm:text-base leading-relaxed">
+                  {feature.desc}
+                </p>
               </div>
-              <h3 className="font-heading font-semibold text-charcoal text-lg mb-2 group-hover:text-primary transition-colors">
-                {feature.title}
-              </h3>
-              <p className="text-warm-gray text-sm leading-relaxed">
-                {feature.desc}
-              </p>
             </motion.div>
           ))}
         </motion.div>
@@ -96,3 +93,4 @@ export default function WhyDifferent() {
     </section>
   );
 }
+
